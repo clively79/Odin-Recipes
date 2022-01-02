@@ -4,7 +4,7 @@
 }
 
 * {
-    border: 1px solid red;
+    border: 0px solid red;
     margin: 0px;
 }
 
@@ -81,7 +81,7 @@
     flex-flow: column;
     flex: 1 1 auto;
     height: vmax;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     justify-content: flex-end;
     align-items: center;
  }
