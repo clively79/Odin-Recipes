@@ -17,71 +17,76 @@
         -webkit-background-clip: text;
     }
 </style>
+<div class="flex-container bg">
+    <div class="flex-container sheet">
 
-<body>
-    <div class="flex-container">
-        <div class="margin"></div>
-        <div class="middle">
-            <div class="flex-container">
-                <div class="image">
-                    <img class="images" src="../images/filet_mignon.jpg" alt="Filet Mignon">
-                </div>
-                <div class="description">
-                    <h1 class="recipe-title">FILET MIGNON</h1>
-                    <p>The Cadillac of Steaks. A thick slice of prime beef tenderloin, seasoned and seared
-                        to perfection on the outside, perfectly rare inside. Pairs nicely with any bold red wine
-                        such as Zinfandel, Merlot, or Malbec. Serve topped with compound butter, Bordelaise,
-                        or bearnaise sauce to accentuate the lean flavors of this exquisite cut of beef. </p>
-                </div>
+        <!-- Create a Flexbox to contain the recipe image, title and description -->
+        <div class="flex-container box">
+            <div>
+                <img class="flex-container recipe-image" src="../images/filet_mignon.jpg">
             </div>
-            <br>
-            <div class="flex-container">
-                <div class="tools">
-                    <h2>Tools Required</h2>
-                    <ul>
-                        <li>1 Half sheet pan and cooling rack.</li>
-                        <li>1 pair of kitchen tongs.</li>
-                        <li>Instant read probe thermometer.</li>
-                        <li>10-12 inch cast iron skillet</li>
-                    </ul>
-                </div>
-                <div class="ingredients">
-                    <h2>Ingredients</h2>
-                    <ul>
-                        <li>1 8-12 Oz. slice of prime beef tenderloin.</li>
-                        <li>2 cloves garlic.</li>
-                        <li>2 sprigs fresh thyme.</li>
-                        <li>Kosher salt.</li>
-                        <li>Coarse ground black pepper.</li>
-                        <li>1 Tablespoon unsalted butter.</li>
-                        <li>1 teaspoon vegitable oil.</li>
-                    </ul>
-                </div>
+            <div>
+                <h1 class="recipe-title">FILET MIGNON</h1>
+                <p>The Cadillac of Steaks. A thick slice of prime beef tenderloin, seasoned and seared to perfection on
+                    the outside, perfectly rare inside. Pairs nicely with any bold red wine such as Zinfandel, Merlot,
+                    or Malbec. Serve topped with compound butter, Bordelaise, or bearnaise sauce to accentuate the lean
+                    flavors of this exquisite cut of beef. </p>
             </div>
-            <br>
-            <div class="directions">
-                <h2>Directions</h2>
-                <ol>
-                    <li>Sprinkle aproximately 1/2 Teaspoon of kosher salt and pepper on both sides of the steak
-                        and leave steak out, unrefrigerated until it reaches room temperature.</li>
-                    <li>Pre-heat oven to 225&#176F.</li>
-                    <li>Place steak on sheetpan with cooling rack, uncovered, for aproximately 40 minutes
-                        or until internal temperature reaches 125&#176F</li>
-                    <li>Melt butter and combine with cooking oil in cast iron skillet. When butter begins to smoke,
-                        reduce heat to medium-high and add steak to skillet. cook for one minute on each side for rare.
-                    </li>
-                    <li>Place garlic cloves and thyme on top of steak and baste while cooking on each side
-                        throughout the searing process.</li>
-                    <li>Move steak back to cooling rack and cover with foil tent for 5 minutes, then serve. </li>
-                </ol>
+        </div>
+
+        <!-- Create a Flexbox to contain a list of tools and ingredients -->
+        <div class="flex-container box" style="justify-content: center; gap: 40px;">
+            <div>
+                <h2>Tools Required</h2>
+                <ul>
+                    <li>1 Half sheet pan and cooling rack.</li>
+                    <li>1 pair of kitchen tongs.</li>
+                    <li>Instant read probe thermometer.</li>
+                    <li>10-12 inch cast iron skillet</li>
+                </ul>
             </div>
-            <div class="flex-container">
-                <div class="footer"><a href="../index.html">Return To Recipe List</a></div>
+            <div>
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>1 8-12 Oz. slice of prime beef tenderloin.</li>
+                    <li>2 cloves garlic.</li>
+                    <li>2 sprigs fresh thyme.</li>
+                    <li>Kosher salt.</li>
+                    <li>Coarse ground black pepper.</li>
+                    <li>1 Tablespoon unsalted butter.</li>
+                    <li>1 teaspoon vegitable oil.</li>
+                </ul>
             </div>
+        </div>
+        <!-- Create a Flexbox to contain the proceedure (directions) -->
+        <div class="flex-container box" style="flex-direction: column;">
+            <h2>Directions</h2>
+            <ol>
+                <li>Sprinkle aproximately 1/2 Teaspoon of kosher salt and pepper on both sides of the steak
+                    and leave steak out, unrefrigerated until it reaches room temperature.</li>
+                <li>Pre-heat oven to 225&#176F.</li>
+                <li>Place steak on sheetpan with cooling rack, uncovered, for aproximately 40 minutes
+                    or until internal temperature reaches 125&#176F</li>
+                <li>Melt butter and combine with cooking oil in cast iron skillet. When butter begins to smoke,
+                    reduce heat to medium-high and add steak to skillet. cook for one minute on each side for rare.
+                </li>
+                <li>Place garlic cloves and thyme on top of steak and baste while cooking on each side
+                    throughout the searing process.</li>
+                <li>Move steak back to cooling rack and cover</li>
+            </ol>
+
 
         </div>
-        <div class="margin"></div>
+        <!-- Create a footer to place a link to the index page at the bootom of each recipe -->
+        <div class="flex-container footer">
+            <a href="../index.html">Return to Recipe Index</a>
+            <img class="license" src="../images/by-nc-sa.png">
+        </div>
     </div>
+</div>
+
+<body>
+
 </body>
 
 </html>
