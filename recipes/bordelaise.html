@@ -3,77 +3,88 @@
 
 <head>
     <link rel="stylesheet" href="styles.css" />
-    <title>Bordelaise</title>
+    <title>Bordelaise Sause</title>
     <meta charset="utf-8">
 
 </head>
+<style>
+    .recipe-title {
+        font-family: Aclonica-Regular;
+        font-size: 72pt;
+        font-weight: bold;
+        /* background: url(../images/beef-texture.jpg) no-repeat center center;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; */
+    }
+</style>
+<div class="flex-container bg">
+    <div class="flex-container sheet">
 
-<body>
-    <div class="flex-container">
-        <div class="margin">
-            <!-- intentionally left empty -->
-        </div>
-        <div class="middle">
-            <div class="flex-container">
-                <div class="image">
-                    <img class="images" src="../images/bordelaise.jpg" alt="Ramaken of Bordelaise sauce">
-                </div>
-                <div class="description">
-                    <h1>Classic Bordelaise Sauce</h1>
-                    <p>A classic french sauce made with red wine, veal demiglace, suateed shallots,
-                        butter, and bone marrow. At approximately 500 callories per Oz, it's not
-                        for the diet concious, but irresistable nonetheless. This sauce perfectly
-                        addorns lean red meats that need a little extra fat to really make them shine.
-                        A perfect accompanyment for Filet Mignon, Hanger Steak, or Venison.</p>
-                </div>
+        <!-- Create a Flexbox to contain the recipe image, title and description -->
+        <div class="flex-container box">
+            <div>
+                <img class="flex-container recipe-image" src="../images/bordelaise.jpg">
             </div>
+            <div>
+                <h1 class="recipe-title">BORDELAISE</h1>
+                <p>A classic French sauce made with red wine, veal demiglace, suateed shallots,
+                    butter, and bone marrow. At approximately 500 callories per Oz, it's not
+                    for the diet concious, but irresistable nonetheless. This sauce perfectly
+                    addorns lean red meats that need a little extra fat to really make them shine.
+                    A perfect accompanyment for Filet Mignon, Hanger Steak, or Venison.</p>
+            </div>
+        </div>
 
-            <div class="flex-container">
-                <div class="tools">
-                    <h2>Tools Required</h2>
-                    <ul>
-                        <li>Small Roasing Pan</li>
-                        <li>Small Sauce Pan</li>
-                        <li>Wire Whisk</li>
-                        <li>Wire Strainer</li>
-                        <li>Gravey Boat</li>
-                    </ul>
-                </div>
-                <div class="ingredients">
-                    <h2>Ingredients</h2>
-                    <ul>
-                        <li>One medium Shallot, Sliced thinly.</li>
-                        <li>One large Marrow Bone, Aproximately 24 Oz.</li>
-                        <li>2 Tablespoons Unsalted Butter.</li>
-                        <li>1 Cup Dry Red Wine, (do not use cooking wine).</li>
-                        <li>1/4 cup or 4 Oz. (by weight) Veal Demiglace, thawed.</li>
-                    </ul>
-                </div>
+        <!-- Create a Flexbox to contain a list of tools and ingredients -->
+        <div class="flex-container box" style="justify-content: center; gap: 40px;">
+            <div>
+                <h2>Tools Required</h2>
+                <ul>
+                    <li>Small Roasing Pan</li>
+                    <li>Small Sauce Pan</li>
+                    <li>Wire Whisk</li>
+                    <li>Wire Strainer</li>
+                    <li>Gravey Boat</li>
+                </ul>
             </div>
-            <br>
-            <div class="flex-container">
-                <div class="directions">
-                    <h2>Directions</h2>
-                    <ol>
-                        <li>In a roasting pan, roast marrow bones in oven set to 475&#176F for 30 minutes</li>
-                        <li>While marrow bones are roasting, melt butter in sauce pan and saute sliced<br>
-                            shallots until brown and semi-translucent.</li>
-                        <li>Add red wine and simmer on med-low heat, stirring occationally until reduced<br>
-                            to a syrup.</li>
-                        <li>Add veal demiglace and reduce further, approximately 50%.</li>
-                        <li>Add roasted bone marrow and any rendered fat in roasting pan, stir, untill<br>
-                            marrow is disolved. strain into gravey boat and serve. If not ready to serve<br>
-                            immediately, strain into a vaccume thermous to keep warm for up to 30 minutes.</li>
-                    </ol>
-                </div>
+            <div>
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>One medium Shallot, Sliced thinly.</li>
+                    <li>One large Marrow Bone, Aproximately 24 Oz.</li>
+                    <li>2 Tablespoons Unsalted Butter.</li>
+                    <li>1 Cup Dry Red Wine, (do not use cooking wine).</li>
+                    <li>1/4 cup or 4 Oz. (by weight) Veal Demiglace, thawed.</li>
+                </ul>
             </div>
-            <br>
-            <center><a href="../index.html">Return To Recipe List</a></center>
         </div>
-        <div class="margin">
-            <!-- intentionally left empty -->
+        <!-- Create a Flexbox to contain the proceedure (directions) -->
+        <div class="flex-container box" style="flex-direction: column;">
+            <h2>Directions</h2>
+            <ol>
+                <li>In a roasting pan, roast marrow bones in oven set to 475&#176F for 30 minutes</li>
+                <li>While marrow bones are roasting, melt butter in sauce pan and saute sliced<br>
+                    shallots until brown and semi-translucent.</li>
+                <li>Add red wine and simmer on med-low heat, stirring occationally until reduced<br>
+                    to a syrup.</li>
+                <li>Add veal demiglace and reduce further, approximately 50%.</li>
+                <li>Add roasted bone marrow and any rendered fat in roasting pan, stir, untill<br>
+                    marrow is disolved. strain into gravey boat and serve. If not ready to serve<br>
+                    immediately, strain into a vaccume thermous to keep warm for up to 30 minutes.</li>
+            </ol>
+
+
+        </div>
+        <!-- Create a footer to place a link to the index page at the bootom of each recipe -->
+        <div class="flex-container footer">
+            <a href="../index.html">Return to Recipe Index</a>
+            <img class="license" src="../images/by-nc-sa.png">
         </div>
     </div>
+</div>
+
+<body>
+
 </body>
 
 </html>
