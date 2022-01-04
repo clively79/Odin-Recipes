@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Odin Recipes</title>
-        <meta charset="utf-8">
-    </head>
-    <Body>
-        <h1>Recipes</h1>
-        <ul>
-            <li><a href="recipes/lasagna.html">Lasagna</a></li>
-            <li><a href="recipes/filet_mignon.html">Filet Mignon</a></li>
-            <li><a href="recipes/bordelaise.html">Bordelaise Sauce</a></li>
-        </ul>
-    </Body>
+
+<head>
+    <title>Odin Recipes</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<Body>
+    <div class="flex-container bg">
+        <div class="flex-container sheet">
+            <div class="flex-container header">
+                <h1>My Odin Project Recipes</h1>
+            </div>
+            <div class="flex-container thumbnails">
+                <a href="recipes/filet_mignon.html">
+                    <div class="flex-container thumbnailbox">
+                        <img class="thumbnail" src="images/filet_mignon.jpg">
+                        FILET MIGNON
+                    </div>
+                </a>
+
+                <a href="recipes/bordelaise.html">
+                    <div class="flex-container thumbnailbox">
+                        <img class="thumbnail" src="images/bordelaise.jpg">
+                        BORDELAISE
+                    </div>
+                </a>
+
+                <a href="recipes/lasagna.html">
+                    <div class="flex-container thumbnailbox">
+                        <img class="thumbnail" src="images/lasagna.jpg">
+                        LASAGNA
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- <ul>
+                <li><a href="recipes/lasagna.html">Lasagna</a></li>
+                <li><a href="recipes/filet_mignon.html">Filet Mignon</a></li>
+                <li><a href="recipes/bordelaise.html">Bordelaise Sauce</a></li>
+            </ul> -->
+        </div>
+    </div>
+
+
+</Body>
+
+
 </html>
