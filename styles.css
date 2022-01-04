@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Aclonica-Regular";
-    src: url("../fonts/Aclonica-Regular.ttf");
+    src: url("fonts/Aclonica-Regular.ttf");
 }
 
 * {
@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: url("../images/butcherboard.jpg");
+    background-image: url("images/butcherboard.jpg");
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -100,7 +100,6 @@ a:active { text-decoration: none; }
     width: 220px;
     height: 220px;
     transition-duration: .5s;
-    tran
 }
 .flex-container.footer {
     flex: 1 1 auto;
